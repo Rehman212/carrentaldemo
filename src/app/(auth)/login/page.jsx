@@ -107,6 +107,7 @@ export default function LoginPage() {
                   </>
                 )}
               </button>
+              <p className="text-center text-gray-400 text-xs mt-6">© 2025 Your Company. All rights reserved.</p>
             </div>
           </div>
 
