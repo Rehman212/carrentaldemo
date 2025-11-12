@@ -44,7 +44,7 @@ export default function Header() {
             <div className="flex-shrink-0">
   <a href="/" className="flex items-center space-x-2">
     <img
-      src="/assests/images/Blogo.PNG"   // Replace with your logo image path
+      src="/assests/images/Blogo.png"   // Replace with your logo image path
       alt="Logo"
       
       className="h-15 w-auto"  // Adjust height and width as needed
