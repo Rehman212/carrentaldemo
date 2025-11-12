@@ -107,7 +107,7 @@ export default function LoginPage() {
                   </>
                 )}
               </button>
-              <p className="text-center text-gray-400 text-xs mt-6">Or Create Account. <a href="/signup"Sign Up Here. </a> </p>
+              <p className="text-center text-gray-400 text-xs mt-6">Or Create Account. <a href="/signup"</a> Sign Up Here.  </p>
             </div>
           </div>
 
