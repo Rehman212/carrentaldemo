@@ -54,7 +54,7 @@ export default function Testimonial(){
             </div>
 
             <div className="mt-6">
-              <p className="text-[15px] text-slate-700 leading-relaxed">ReadymadeUI made it so easy to launch my website. The components are clean, fast to use, and saved me hours of development time.</p>
+              <p className="text-[15px] text-slate-700 leading-relaxed">it so easy to launch my website. The components are clean, fast to use, and saved me hours of development time.</p>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ export default function Testimonial(){
             </div>
 
             <div className="mt-6">
-              <p className="text-[15px] text-slate-700 leading-relaxed">I love how professional everything looks with ReadymadeUI. The templates are modern, responsive, and easy to customize.</p>
+              <p className="text-[15px] text-slate-700 leading-relaxed">I love how professional everything looks with . The templates are modern, responsive, and easy to customize.</p>
             </div>
           </div>
 
@@ -148,7 +148,7 @@ export default function Testimonial(){
             </div>
 
             <div className="mt-6">
-              <p className="text-[15px] text-slate-700 leading-relaxed">ReadymadeUI gave my project a polished look without the hassle. The layouts are beautifully designed and ready to go.</p>
+              <p className="text-[15px] text-slate-700 leading-relaxed">Gave my project a polished look without the hassle. The layouts are beautifully designed and ready to go.</p>
             </div>
           </div>
 
@@ -242,7 +242,7 @@ export default function Testimonial(){
             </div>
 
             <div className="mt-6">
-              <p className="text-[15px] text-slate-700 leading-relaxed">So many design options! ReadymadeUI has something for every use case, and it’s super easy to mix and match components.</p>
+              <p className="text-[15px] text-slate-700 leading-relaxed">So many design options!  has something for every use case, and it’s super easy to mix and match components.</p>
             </div>
           </div>
 
@@ -289,7 +289,7 @@ export default function Testimonial(){
             </div>
 
             <div className="mt-6">
-              <p className="text-[15px] text-slate-700 leading-relaxed">As a repeat user, I’m always impressed by the updates and new layouts. ReadymadeUI just keeps getting better and better.</p>
+              <p className="text-[15px] text-slate-700 leading-relaxed">As a repeat user, I’m always impressed by the updates and new layouts.  just keeps getting better and better.</p>
             </div>
           </div>
         </div>
