@@ -90,23 +90,34 @@ export default function LoginPage() {
               </div>
 
               {/* Submit */}
-              <button
-                onClick={handleSubmit}
-                disabled={isLoading}
-                className="w-full bg-gradient-to-r from-[#0BD092] to-[#252322] text-white py-3 px-6 rounded-xl font-semibold hover:from-purple-600 hover:to-pink-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-transparent transition-all transform hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-              >
-                {isLoading ? (
-                  <>
-                    <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-                    Signing in...
-                  </>
-                ) : (
-                  <>
-                    Sign In
-                    <ArrowRight className="w-5 h-5" />
-                  </>
-                )}
-              </button>
+            <button
+  onClick={handleSubmit}
+  disabled={isLoading}
+  className="w-full bg-gradient-to-r from-[#0BD092] to-[#252322] text-white py-3 px-6 rounded-xl font-semibold hover:from-purple-600 hover:to-pink-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-transparent transition-all transform hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+>
+  {isLoading ? (
+    <>
+      <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+      Signing in...
+    </>
+  ) : (
+    <>
+      Sign In
+      <ArrowRight className="w-5 h-5" />
+    </>
+  )}
+</button>
+
+<p className="mt-4 text-center text-sm text-gray-500">
+  Don’t have an account?{' '}
+  <a
+    href="/signup"
+    className="text-purple-600 hover:underline font-semibold"
+  >
+    Sign up here
+  </a>
+</p>
+
               
             </div>
           </div>
